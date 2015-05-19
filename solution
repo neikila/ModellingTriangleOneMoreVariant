@@ -1,0 +1,24 @@
+
+(T - T0) / dt = (Tl -2T + Tr) / dx ^ 2 + (Tu - 2T + Td) / dy ^ 2 
+
+
+T * (dx * dy) ^ 2 - T0 * (dx * dy) ^ 2 =
+Tl * dt * dy ^ 2 +
+-2T * dt * dy ^ 2 +
+Tr * dt * dy ^ 2 + 
+Tu * dx ^ 2 * dt +
+-2T * dx ^ 2 * dt + 
+Td * dx ^ 2 * dt
+
+
+- T0 * (dx * dy) ^ 2 =
+
+-T (
+ (dx * dy) ^ 2
+ + 2 * dt * dy ^ 2 
+ + 2 * dt * dy ^ 2) +
+
+Tl * dt * dy ^ 2 +
+Tr * dt * dy ^ 2 + 
+Tu * dx ^ 2 * dt +
+Td * dx ^ 2 * dt
